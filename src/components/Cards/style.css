@@ -1,0 +1,37 @@
+.my-card {
+    box-shadow: var(--shadow);
+    margin: 2rem;
+    border-radius: 0.5rem;
+    /*width: 30%;  Instead of min-width */
+    min-width: 300px; /* Reduce minimum width */
+    flex: 1;
+}
+
+
+.ant-card-head-title{
+    margin: 0rem !important;
+    font-weight: 600;
+}
+
+.my-row{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    align-items: stretch;
+    margin: 2rem auto;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.my-card p{
+    margin: 0;
+}
+
+.balance-text{
+    font-size: 2rem;
+    font-weight: 450;
+}
+
+.my-card button{
+    margin-top: auto;
+}
